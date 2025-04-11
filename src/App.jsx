@@ -11,7 +11,15 @@ function App() {
   fetchActresses();
   return (
     <>
-      <div>
+      <h1>Attrici</h1>
+      <div className='card'>
+        <h2>Nome</h2>
+        <p>Anno nascita</p>
+        <p>Nazionalità</p>
+        <p>Bio</p>
+        <p>Premi</p>
+        <p>Film Famosi in cui ha partecipato</p>
+        <img src="#" alt="" />
 
       </div>
     </>

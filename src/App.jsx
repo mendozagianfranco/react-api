@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 function App() {
-  const endpoint = 'https://freetestapi.com/api/v1/actresses';
+  const endpoint = 'https://www.freetestapi.com/api/v1/actresses';
 
   function fetchActresses() {
     axios.get(endpoint)
@@ -11,6 +11,9 @@ function App() {
   fetchActresses();
   return (
     <>
+      <div>
+
+      </div>
     </>
   );
 }

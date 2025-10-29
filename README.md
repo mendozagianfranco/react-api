@@ -61,7 +61,5 @@ Esempio di struttura dei dati:
 
 - Gestire dati dinamici in React tramite import di moduli o fetch simulato.
 - Creare componenti dinamici basati su array di oggetti.
-
-Gestire layout responsive per le card.
-
-Migliorare l’interfaccia utente con informazioni strutturate.
+- Gestire layout responsive per le card.
+- Migliorare l’interfaccia utente con informazioni strutturate.

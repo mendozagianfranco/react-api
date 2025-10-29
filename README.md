@@ -1,28 +1,67 @@
-# Cast Fetching
-## Esercizio
-Creare una piccola app che ci mostri un elenco di attori o attrici.
-## Usate uno di questi due endpoint, a piacimento:
-Lista di Attrici:   `https://freetestapi.com/api/v1/actresses`\
-Lista di Attori:  `https://freetestapi.com/api/v1/actors`
-## MILESTONE 1
-Al caricamento dell'applicazione, recuperiamo la lista degli attori (o attrici) dalle API e stampiamoli in console.
-## MILESTONE 2
-Prepariamo una card per ciascun attore/attrice, mostrandone le seguenti informazioni:
-- nome
-- anno nascita
-- nazionalità
-- biografia
-- immagine
-- riconoscimenti
-- immagine
-## MILESTONE 3
-Mostriamo in pagina una card per ciascun attore, con grafica a piacimento!
-## *BONUS 1*
-Stampare sia una lista delle attrici che degli attori, separatamente.
-## *BONUS 2*
-Stampare un’unica lista che contiene attori e attrici insieme!
-## *BONUS 3*
-Inserire un filtro di ricerca che permetta di cercare gli attori o le attrici per nome.
-Per fare questo bonus avrai bisogno di consultare la documentazione:\
-documentazione attrici: `https://www.freetestapi.com/apis/actresses`\
-documentazione attori: `https://www.freetestapi.com/apis/actors`
+# React API - Cast Fetching (Mock Data)
+
+## Descrizione
+Questo progetto è un esercizio per apprendere l’integrazione di dati esterni in un’applicazione React.  
+L’obiettivo è mostrare un elenco di attori o attrici tramite **card informative**, simulando i dati di un’API che non è più disponibile.
+
+> [!WARNING]
+> L’API originale non è più disponibile
+
+---
+
+## Struttura dei dati
+Ogni attore o attrice contiene le seguenti informazioni:
+- Nome
+- Anno di nascita
+- Nazionalità
+- Biografia
+- Riconoscimenti
+- Immagine
+
+Esempio di struttura dei dati:
+
+# Milestone
+## Milestone 1
+
+- Al caricamento dell’applicazione, recuperare la lista degli attori/attrici dai dati mock.
+- Stampare la lista in console per verificare la corretta importazione.
+
+## Milestone 2
+- Creare una card per ciascun attore/attrice.
+
+## Mostrare le informazioni principali:
+
+- Nome
+- Anno di nascita
+- Nazionalità
+- Biografia
+- Riconoscimenti
+- Immagine
+
+## Milestone 3
+- Mostrare le card in pagina con layout grafico a piacimento.
+- Rendere la visualizzazione responsive per desktop, tablet e mobile.
+
+## BONUS 1
+- Stampare due liste separate: una per gli attori e una per le attrici.
+
+## BONUS 2
+- Stampare un’unica lista che contenga attori e attrici insieme.
+
+## BONUS 3
+- Inserire un filtro di ricerca per cercare attori o attrici per nome.
+
+## Tecnologie utilizzate
+- React.js
+- JavaScript (ES6+)
+- HTML 
+- Vite come tool build
+
+## Obiettivi di apprendimento
+
+- Gestire dati dinamici in React tramite import di moduli o fetch simulato.
+- Creare componenti dinamici basati su array di oggetti.
+
+Gestire layout responsive per le card.
+
+Migliorare l’interfaccia utente con informazioni strutturate.

@@ -54,7 +54,7 @@ Esempio di struttura dei dati:
 ## Tecnologie utilizzate
 - React.js
 - JavaScript (ES6+)
-- HTML 
+- HTML / CSS
 - Vite come tool build
 
 ## Obiettivi di apprendimento
